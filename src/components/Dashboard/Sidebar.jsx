@@ -54,16 +54,12 @@ const Sidebar = () => {
           onToggleSidebar={handleHamburgerClick}
         />
 
-        {!isCollapsed ? (
+        {!isCollapsed && (
           <div className="p-4">
             <NewConversationButton
               onAdd={addConversation}
               onToggleSidebar={handleHamburgerClick}
             />
-          </div>
-        ) : (
-          <div className="p-6">
-            <PiNotePencilBold className="text-gray-500" />
           </div>
         )}
 

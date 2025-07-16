@@ -2,6 +2,8 @@
 
 A modern, Gemini-inspired AI chat web application built with **ReactJS**, **TailwindCSS**, **Framer Motion**, **Zustand**, and **React Router**. It features a dynamic, WhatsApp Web-like layout with an interactive chat system, animated UI, sidebar conversations, search functionality, dummy login with OTP, and session persistence.
 
+[Live Preview](https://gemini-v3.netlify.app/)
+
 ![Image Preview](image.png)
 
 ---
